@@ -1,6 +1,5 @@
 from collections import deque
 
-
 class Solution:
     def SumSlidingWindow(self, nums, k):
         # arr = []
@@ -33,3 +32,17 @@ if __name__ == "__main__":
     arr = [1, 4, 2, 10, 2, 3, 1, 0, 20]
     k = 4
     print(S.SumSlidingWindow(arr, k))
+
+
+
+
+"""
+Input: arr[] = [1,2,3,7,5], n = 5, s = 12
+Output: 2 4
+Explanation: The sum of elements from 2nd to 4th position is 12.
+"""
+class Solution:
+
+    def SubArrSum(self, nums, k , s):
+
+

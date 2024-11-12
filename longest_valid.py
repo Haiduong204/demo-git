@@ -31,7 +31,7 @@ print(S.longestValidParentheses("(())"))
 
 # suppose: S = "(()"
 """
-b1: loop for-> fisrt element "(": --> i = 0
+b1: loop for-> fisrt element "(": --> i = 0p
     push id 0 in stack: -> stack = [-1, 0]
 b2: loop for -> sencond element: "(" --> i = 1
     pusd id 1 in stack: -> stack = [-1 , 0, 1]
